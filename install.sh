@@ -29,6 +29,6 @@ case "$OSTYPE" in
 esac
 
 echo "Installing testrpc"
-npm install -g ethereumjs-testrpc
+sudo npm install -g ethereumjs-testrpc
 echo "Installing truffle"
-npm install -g truffle
+sudo npm install -g truffle
